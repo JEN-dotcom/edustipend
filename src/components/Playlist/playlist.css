@@ -1,0 +1,51 @@
+section {
+    padding-top: 20px;
+    display: flex;
+}
+
+.trending {
+    background-color:#676767;
+    width: 30%;
+}
+
+
+.playlist {
+    background-color: #5858;
+    width: 70%;
+}
+
+.trending__container {
+    margin: 20px 10px;
+   
+}
+
+.trending h3 {
+    font-weight: 900;
+font-size: larger;
+
+
+}
+
+
+.songs__buttons {
+    display: flex;
+
+    flex-direction: column;
+}
+.trending__container button {
+    margin: 10px 0px 0px;
+    padding: 7px 15px;
+
+}
+.songs__buttons button {
+    background-color: white;
+    padding: 5px;
+    margin: 10px;
+
+}
+
+.songs__buttons button span {
+    font-weight:800;
+    margin-left: 5px;
+    font-size: larger;
+}
