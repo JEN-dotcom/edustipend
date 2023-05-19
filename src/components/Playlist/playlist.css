@@ -3,6 +3,27 @@ section {
     display: flex;
 }
 
+.playlist {
+    
+    width: 70%;
+    margin-top: 70px;
+    padding-left: 30px;
+   
+    text-align: left;
+font-size: 24px;
+    line-height: 50px;
+    word-spacing: ;
+
+}
+.playlist h1 {
+    
+    display: flex;
+    font-size:3rem;
+    padding-bottom: 20px;
+    justify-content: start;
+    word-spacing: 5px;
+}
+
 .trending {
     background-color:#676767;
     width: 30%;
@@ -10,8 +31,7 @@ section {
 
 
 .playlist {
-    background-color: #5858;
-    width: 70%;
+    
 }
 
 .trending__container {
@@ -48,4 +68,5 @@ font-size: larger;
     font-weight:800;
     margin-left: 5px;
     font-size: larger;
+    display: inline-block;
 }
