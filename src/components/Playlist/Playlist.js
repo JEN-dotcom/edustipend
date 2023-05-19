@@ -21,7 +21,7 @@ const Playlist = () => {
                         <button>Unavailable by <em>Davido</em><span> + </span></button>
 
                     </div>
-                    
+                    <button>View more</button>
                 </div>
             </div>
 
