@@ -4,7 +4,8 @@ section {
 }
 
 .playlist {
-    
+    display: flex;
+    flex-direction: column;
     width: 70%;
     margin-top: 70px;
     padding-left: 30px;
@@ -12,7 +13,7 @@ section {
     text-align: left;
 font-size: 24px;
     line-height: 50px;
-    word-spacing: ;
+
 
 }
 .playlist h1 {
@@ -24,15 +25,20 @@ font-size: 24px;
     word-spacing: 5px;
 }
 
+.playlist button {
+    margin-top: 30px;
+    padding: 10px;
+    width: 175px;
+font-size: 24px;
+font-weight: 100;
+
+}
 .trending {
     background-color:#676767;
     width: 30%;
 }
 
 
-.playlist {
-    
-}
 
 .trending__container {
     margin: 20px 10px;
@@ -54,7 +60,7 @@ font-size: larger;
 }
 .trending__container button {
     margin: 10px 0px 0px;
-    padding: 7px 15px;
+    padding: 10px 15px;
 
 }
 .songs__buttons button {

@@ -8,6 +8,7 @@ const Playlist = () => {
 
             <h1>Make your party fun!</h1>
             Create your own custom playlist today.
+            <button>Create playlist</button>
             </div>
            
             <div className='trending'>
