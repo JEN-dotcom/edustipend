@@ -4,8 +4,8 @@ import './navbar.css'
 const Navbar = () => {
   return (
     <div className='nav'>
-    Contact Us
-    <button>Signup</button>
+      Contact Us
+      <button>Signup</button>
     </div>
   )
 }

@@ -5,8 +5,6 @@
   box-sizing: border-box;
   padding: 0;
   outline: 0;
-  list-style: none;
-  
 }
 
 body {
@@ -15,13 +13,10 @@ body {
 
 button {
   font-size: 14px;
-
   padding: 5px 20px;
  font-weight: 600;
   background-color: #ff9900;
   border-radius: 5px;
   cursor: pointer;
   border: 1px solid #706658;
-  transition: 0.2s; 
 }
-
