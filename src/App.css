@@ -1,6 +1,14 @@
 .App {
-  background-color: #eeeeee;
-  height: 100vh;
+ 
+  
   padding: 20px 10px 10px 20px;
   text-align: center;
+}
+
+
+@media screen and (max-width: 767px) {
+  .App {
+      padding: 20px;
+  }
+
 }
