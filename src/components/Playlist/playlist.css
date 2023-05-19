@@ -47,6 +47,8 @@ section {
 .songs__buttons {
     display: flex;
     flex-direction: column;
+    max-width: 300px;
+    margin: 0 auto;
 }
 
 .trending__container button {
@@ -89,12 +91,13 @@ section {
     .trending {
         background-color: #676767;
         width: 100%;
-        margin-top: 30px;
+        max-width: 500px;
+        margin : 30px auto 0
     }
 
     .songs__buttons button {
         margin: 10px auto;
-        width: 80%;
+        width: 100%;
     }
 }
 
